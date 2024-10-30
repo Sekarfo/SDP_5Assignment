@@ -29,5 +29,15 @@ public class Game {
 
         hero.applyEffect(boost);
         hero.applyEffect(damage);
+
+
+        System.out.println("         ");
+        System.out.println("         ");
+        System.out.println("         ");
+
+
+
+        System.out.println(" Health of Hero "+hero.getHealth());
+
     }
 }

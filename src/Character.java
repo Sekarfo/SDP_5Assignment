@@ -9,8 +9,8 @@ public class Character {
         this.state = new NormalState(this);
         this.strategy = new MeleeStrategy();
         this.health = 100;
-        this.attackStrength = 10;
-        this.defense = 5;
+        this.attackStrength = 50;
+        this.defense = 15;
     }
 
     public void setState(CharacterState newState) {

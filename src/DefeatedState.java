@@ -1,7 +1,7 @@
 public class DefeatedState implements CharacterState {
-    private java.lang.Character character;
+    private Character character;
 
-    public DefeatedState(java.lang.Character character) {
+    public DefeatedState(Character character) {
         this.character = character;
     }
 
